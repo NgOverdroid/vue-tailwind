@@ -5,13 +5,13 @@ import { createPinia } from 'pinia'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faStar as faSolidStar } from '@fortawesome/free-solid-svg-icons';
-import { faStar as faRegularStar } from '@fortawesome/free-regular-svg-icons';
+import { faCircleRadiation, faStar as faSolidStar } from '@fortawesome/free-solid-svg-icons';
+import { faStar as faRegularStar, faFileExcel, faCircleQuestion, faCircleCheck } from '@fortawesome/free-regular-svg-icons';
 
 import App from './App.vue'
 import router from './router'
 
-library.add(faSolidStar, faRegularStar);
+library.add(faSolidStar, faRegularStar, faFileExcel, faCircleRadiation, faCircleQuestion, faCircleCheck);
 
 const app = createApp(App)
 
