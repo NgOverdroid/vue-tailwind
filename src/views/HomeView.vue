@@ -1,8 +1,7 @@
 <script setup>
-  import { ref } from 'vue';
-  import MultiStepForm from '@/components/MultiStepForm/MultiStepForm.vue';
+  import VideoPlayer from '@/components/VideoPlayer/VideoPlayer.vue';
 </script>
 
 <template>
-  <MultiStepForm/>
+  <VideoPlayer/>
 </template>

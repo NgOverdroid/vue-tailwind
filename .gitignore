@@ -31,3 +31,8 @@ coverage
 
 #importTest.js
 importTest.js
+
+#videos
+*.mp4
+*.mp3
+*.webm
